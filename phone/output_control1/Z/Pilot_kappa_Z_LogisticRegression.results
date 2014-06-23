@@ -1,0 +1,165 @@
+Experiment Name: Pilot_kappa
+Timestamp: 20 Jun 2014 11:04:00
+SKLL Version: 0.24.0
+Training Set: Z
+Test Set: cv
+Feature Set: ["Z"]
+Learner: LogisticRegression
+Task: cross_validate
+Feature Scaling: both
+Grid Search: True
+Grid Objective Function: unweighted_kappa
+
+
+Fold: 1
+Model Parameters: {"C": 10.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0030076228924
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [153] |     0 |     0.905 |  1.000 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.905325443787
+Objective Function Score (Test) = 0.0
+
+Fold: 2
+Model Parameters: {"C": 1.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0177671253584
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [148] |     5 |     0.902 |  0.967 |     0.934 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.87573964497
+Objective Function Score (Test) = -0.0472115668339
+
+Fold: 3
+Model Parameters: {"C": 1.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0210045830341
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [153] |     0 |     0.911 |  1.000 |     0.953 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.910714285714
+Objective Function Score (Test) = 0.0
+
+Fold: 4
+Model Parameters: {"C": 1.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.00928707719848
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [152] |     1 |     0.910 |  0.993 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.904761904762
+Objective Function Score (Test) = -0.0112866817156
+
+Fold: 5
+Model Parameters: {"C": 10.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.00722431576707
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [153] |     0 |     0.911 |  1.000 |     0.953 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.910714285714
+Objective Function Score (Test) = 0.0
+
+Fold: 6
+Model Parameters: {"C": 10.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0539600977042
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [151] |     1 |     0.904 |  0.993 |     0.947 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.89880952381
+Objective Function Score (Test) = -0.0113314447592
+
+Fold: 7
+Model Parameters: {"C": 1.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0082170363365
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [152] |     0 |     0.905 |  1.000 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.904761904762
+Objective Function Score (Test) = 0.0
+
+Fold: 8
+Model Parameters: {"C": 0.01, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = -0.00128363275939
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [152] |     0 |     0.905 |  1.000 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.904761904762
+Objective Function Score (Test) = 0.0
+
+Fold: 9
+Model Parameters: {"C": 10.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0158819941553
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [152] |     0 |     0.905 |  1.000 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.904761904762
+Objective Function Score (Test) = 0.0
+
+Fold: 10
+Model Parameters: {"C": 1.0, "intercept_scaling": 1, "fit_intercept": true, "penalty": "l2", "random_state": 123456789, "dual": false, "tol": 0.0001, "class_weight": null}
+Grid Objective Score (Train) = 0.0313342429599
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [152] |     0 |     0.905 |  1.000 |     0.950 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      16 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.904761904762
+Objective Function Score (Test) = 0.0
+
+Fold: average
+Model Parameters: 
+Grid Objective Score (Train) = 
++---------+-----------+--------+-----------+
+| Class   | Precision | Recall | F-measure |
++---------+-----------+--------+-----------+
+| correct |     0.906 |  0.995 |     0.949 |
+| error   |     0.000 |  0.000 |     0.000 |
++---------+-----------+--------+-----------+
+Accuracy = 0.902511270781
+Objective Function Score (Test) = -0.00698296933087
+

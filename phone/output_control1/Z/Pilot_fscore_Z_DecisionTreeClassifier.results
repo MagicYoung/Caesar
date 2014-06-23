@@ -1,0 +1,165 @@
+Experiment Name: Pilot_fscore
+Timestamp: 20 Jun 2014 10:58:03
+SKLL Version: 0.24.0
+Training Set: Z
+Test Set: cv
+Feature Set: ["Z"]
+Learner: DecisionTreeClassifier
+Task: cross_validate
+Feature Scaling: both
+Grid Search: True
+Grid Objective Function: f1_score_micro
+
+
+Fold: 1
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.165659354426
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [142] |    11 |     0.922 |  0.928 |     0.925 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      12 |   [4] |     0.267 |  0.250 |     0.258 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.863905325444
+Objective Function Score (Test) = 0.258064516129
+
+Fold: 2
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.195760130014
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [140] |    13 |     0.921 |  0.915 |     0.918 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      12 |   [4] |     0.235 |  0.250 |     0.242 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.852071005917
+Objective Function Score (Test) = 0.242424242424
+
+Fold: 3
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.209902245415
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [148] |     5 |     0.908 |  0.967 |     0.937 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.880952380952
+Objective Function Score (Test) = 0.0
+
+Fold: 4
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": null, "max_depth": null}
+Grid Objective Score (Train) = 0.175520954781
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [138] |    15 |     0.902 |  0.902 |     0.902 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [0] |     0.000 |  0.000 |     0.000 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.821428571429
+Objective Function Score (Test) = 0.0
+
+Fold: 5
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": null, "max_depth": null}
+Grid Objective Score (Train) = 0.159892583347
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [147] |     6 |     0.925 |  0.961 |     0.942 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      12 |   [3] |     0.333 |  0.200 |     0.250 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.892857142857
+Objective Function Score (Test) = 0.25
+
+Fold: 6
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.172828529009
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [137] |    15 |     0.913 |  0.901 |     0.907 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      13 |   [3] |     0.167 |  0.188 |     0.176 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.833333333333
+Objective Function Score (Test) = 0.176470588235
+
+Fold: 7
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": null, "max_depth": null}
+Grid Objective Score (Train) = 0.151746117101
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [142] |    10 |     0.922 |  0.934 |     0.928 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      12 |   [4] |     0.286 |  0.250 |     0.267 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.869047619048
+Objective Function Score (Test) = 0.266666666667
+
+Fold: 8
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.223105787608
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [137] |    15 |     0.913 |  0.901 |     0.907 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      13 |   [3] |     0.167 |  0.188 |     0.176 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.833333333333
+Objective Function Score (Test) = 0.176470588235
+
+Fold: 9
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": "auto", "max_depth": null}
+Grid Objective Score (Train) = 0.200978486543
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [130] |    22 |     0.903 |  0.855 |     0.878 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      14 |   [2] |     0.083 |  0.125 |     0.100 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.785714285714
+Objective Function Score (Test) = 0.1
+
+Fold: 10
+Model Parameters: {"splitter": "best", "min_density": null, "compute_importances": null, "min_samples_leaf": 1, "min_samples_split": 2, "random_state": 123456789, "criterion": "gini", "max_features": null, "max_depth": null}
+Grid Objective Score (Train) = 0.206987817499
++---------+---------+-------+-----------+--------+-----------+
+|         | correct | error | Precision | Recall | F-measure |
++---------+---------+-------+-----------+--------+-----------+
+| correct |   [140] |    12 |     0.903 |  0.921 |     0.912 |
++---------+---------+-------+-----------+--------+-----------+
+|   error |      15 |   [1] |     0.077 |  0.062 |     0.069 |
++---------+---------+-------+-----------+--------+-----------+
+(row = reference; column = predicted)
+Accuracy = 0.839285714286
+Objective Function Score (Test) = 0.0689655172414
+
+Fold: average
+Model Parameters: 
+Grid Objective Score (Train) = 
++---------+-----------+--------+-----------+
+| Class   | Precision | Recall | F-measure |
++---------+-----------+--------+-----------+
+| correct |     0.913 |  0.919 |     0.916 |
+| error   |     0.161 |  0.151 |     0.154 |
++---------+-----------+--------+-----------+
+Accuracy = 0.847192871231
+Objective Function Score (Test) = 0.153906211893
+

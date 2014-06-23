@@ -1,0 +1,25 @@
+2014-06-20 10:57:58,545 - __main__ - INFO - Appended /opt/python/2.7/lib/python2.7/site-packages/skll to PYTHONPATH
+2014-06-20 10:57:58,546 - __main__ - INFO - Waiting 5 seconds before starting
+2014-06-20 10:58:04,802 - __main__ - INFO - Starting heart beat
+2014-06-20 10:58:04,804 - __main__ - INFO - Changing working directory: /home/research/interns/xyang/mispronDetection/phone
+2014-06-20 10:58:04,806 - __main__ - INFO - Executing job
+Loading ./train/Z/Z.jsonlines....................done
+2014-06-20 10:58:04,982 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:04,994 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:05,776 - py.warnings - WARNING - /opt/python/2.7/lib/python2.7/site-packages/skll/learner.py:900: UserWarning: The sum of true positives and false positives are equal to zero for some labels. Precision is ill defined for those labels [1]. The precision and recall are equal to zero for some labels. fbeta_score is ill defined for those labels [1]. 
+  average=None)
+
+2014-06-20 10:58:05,799 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:06,759 - py.warnings - WARNING - /opt/python/2.7/lib/python2.7/site-packages/skll/learner.py:900: UserWarning: The precision and recall are equal to zero for some labels. fbeta_score is ill defined for those labels [1]. 
+  average=None)
+
+2014-06-20 10:58:06,770 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:07,664 - skll.learner - WARNING - You have a feature with a very large absolute value (4608.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:08,910 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:09,595 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:10,552 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:11,218 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:11,948 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:13,048 - skll.learner - WARNING - You have a feature with a very large absolute value (4770.0).  That may cause the learning algorithm to crash or perform poorly.
+2014-06-20 10:58:13,815 - __main__ - INFO - Finished job
+2014-06-20 10:58:13,823 - __main__ - INFO - thanks
