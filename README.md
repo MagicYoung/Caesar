@@ -1,3 +1,5 @@
+Based on SKLL wrapper
+
 1. Description of files
 clean.sh
 split_phone.py
